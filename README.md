@@ -1,4 +1,22 @@
-# AI 法学日报 · 自动化推送
+<div align="center">
+
+# 📬 AI 法学日报 · AI Law Daily Digest
+
+**每日自动抓取 AI × 法律的论文与资讯 → LLM 整理 → 邮件推送**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776ab.svg?logo=python&logoColor=white)](https://python.org)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)](#)
+[![LLM](https://img.shields.io/badge/LLM-GLM--5.3--flash-722ed1.svg)](https://open.bigmodel.cn)
+[![systemd](https://img.shields.io/badge/scheduler-systemd%20timer-3ea832.svg)](https://systemd.io)
+
+**arXiv 论文 · Hacker News · Solidot · GitHub 开源动态 · (Twitter RSS 可选)**
+
+[English](README.en.md) · 中文
+
+</div>
+
+---
 
 > 部署在云服务器上的每日自动化任务：抓取 AI / 计算法学相关的**论文、外网热议、科技动态、开源项目** → LLM 整理成日报 → 邮件推送。systemd timer 定时触发，纯 Python 标准库实现，**零第三方依赖**。
 
